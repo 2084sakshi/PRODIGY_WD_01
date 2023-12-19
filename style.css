@@ -463,6 +463,77 @@ nav {
 }
 
 /* Media Queries */
+@media (min-width: 1200px) and (max-width:1700px) {
+  .section_container {
+    padding: 5rem 2rem;
+  }
+  .nav__logo a {
+    font-size: 1.5rem;
+  }
+  .nav__links {
+    margin-right: 40px;
+    font-size: 1.3rem;
+  }
+  .header__container h1 {
+    font-size: 2rem;
+  }
+  .header__content__details p {
+    font-size: 1.4rem;
+  }
+  .btn{
+    padding: 10px 20px;
+    font-size: 1.4rem;
+  }
+  .header__image img{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+  }
+  .paragraph{
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .portfolio__container{
+    padding: 80px;
+  }
+  .client__card h1{
+    font-size: 1.8rem;
+  }
+  .client__ratings span{
+    font-size: 1.4rem;
+  }
+  .client__card p{
+    font-size: 1.4rem;
+  }
+  .client__card h4{
+    font-size: 1.4rem;
+  }
+  .client__card img{
+    width: 120px;
+    height: 140px;
+  }
+  .news__card h4{
+    font-size: 1.7rem;
+  }
+  .news__card p{
+    font-size: 1.4rem;
+  }
+  .news-text a {
+    font-size: 1.4rem;
+  }
+  .about__card p{
+    font-size: 1.4rem;
+  }
+  .footer__col{
+    font-size: 1.5em;
+  }
+  .news__grid{
+    grid-template-columns: repeat(3, 1fr);
+  
+  }
+}
+
+
 
 /* Large Devices (992px - 1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -528,6 +599,10 @@ nav {
   }
   .footer__col{
     font-size: 1.5em;
+  }
+  .news__grid{
+    grid-template-columns: repeat(2, 1fr);
+  
   }
 }
 
@@ -763,11 +838,15 @@ nav {
   .btn{
     font: 1em sans-serif;
   }
+  .about__header h2{
+    text-align: center;
+  }
   .about__card {
     max-width: 80%;
   }
   .about__content p{
     font-size: 22px;
+    text-align: center;
   }
   .about__grid{
     margin-top: 20px;
@@ -819,10 +898,11 @@ nav {
   }
 
   .news__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .news__card{
     margin: 0;
+    max-width: 100%;
   }
   .news__card h4{
     font-size: 1.7rem;
@@ -902,7 +982,7 @@ nav {
   }
 
   .header__container {
-    padding: 50px;
+    padding: 30px;
   }
 
   .header__content h1 {
@@ -921,14 +1001,14 @@ nav {
     align-items: center;
     text-align: center;
   }
- .header__content{
-  margin:50px;
- }
-  .header__content h1 {
+ .header__content h1 {
     font-size: 32px;
   }
  .header__content__details p{
    font-size: 1.4rem;
+  }
+  .header__content__details{
+    margin-bottom: 30px;
   }
   .header__content__details button{
     font-size: 1.2rem;
@@ -1032,9 +1112,7 @@ nav {
   .news-text a {
     font-size: 1.4rem;
   }
-  .section__header{
-    font-size: 20px;
-  }
+  
   .contact__container {
     padding: 50px;
   }
